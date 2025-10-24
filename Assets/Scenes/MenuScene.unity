@@ -589,7 +589,7 @@ GameObject:
   - component: {fileID: 1197292493}
   - component: {fileID: 1197292494}
   m_Layer: 0
-  m_Name: Deck Script
+  m_Name: Deck Scripts
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
