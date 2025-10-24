@@ -5,30 +5,35 @@ using UnityEngine.SceneManagement;
 public class Buttons : MonoBehaviour
 {
     // Start is called before the first frame update
+    //Deck starter = Deck.CreateStarter();
+    
     void Start()
     {
         
     }
-
-    // Update is called once per frame
     void Update()
     {
 
     }
-    
+
 
     public void Play()
     {
-        SceneManager.LoadScene("MenuScene");
+        //Doesnt work idk why
+        SceneManager.LoadScene("Game");
         Debug.Log("play");
     }
 
-    public void EditDeck()
+    
+    /*
+    public void AddCard(Deck Deck, int CardSlot)
     {
-
+        //deck.changecard(CardSlot)
     }
     public void NewDeck()
     {
-        
+        //check if you own cardsin for loop
+        Deck a = new Deck(new string[]{"a" });
     }
+    */
 }
